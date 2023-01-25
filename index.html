@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/catalogo.css">
     <title>Loja D&G</title>
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="container-cabecalho">
             <h1><img src="assets/img/D&G.png" class="logo" alt="logo da empresa"></h1>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-				<li><a href="#">Catálogo</a></li>
-				<li><a href="#">Contato</a></li>
+				<li><a href="#catalogo">Catálogo</a></li>
+				<li><a href="#contato">Contato</a></li>
 			</ul>			
         </nav>
         </div>
@@ -102,12 +103,15 @@
 
     </section>
 
-    <footer>
+    <footer id="contato">
         <div class="footer-informacoes">            
-            <p class="fale-comigo">Fale conosco, através do whatsapp <a href="#" target="_blank"></p>  
+            <p>Fale conosco, através de nossas redes sociais:<br>
+                <a href="https://instagram.com/cosmeticosdeg?igshid=YmMyMTA2M2Y=" target="_blank"><i class="mdi mdi-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=5511985906462&text=Ol%C3%A1%20seja%20bem%20vindo." target="_blank"><i class="mdi mdi-whatsapp"></i></a>
+            </p>
         </div>
         
-        <p>&copy; D&G Cosmésticos <br>2023</p>
+        <p class="registro">&copy; D&G Cosméticos <br>2023</p>
        
     </footer>
     <script src="assets/js/script.js"></script>
